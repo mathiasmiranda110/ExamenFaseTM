@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.view.View;
 import android.os.Bundle;
-
+//Mathías Miranda
 public class MainActivity extends AppCompatActivity {
 
     @Override

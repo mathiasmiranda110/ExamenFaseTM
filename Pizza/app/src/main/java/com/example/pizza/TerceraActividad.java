@@ -6,7 +6,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.Toast;
 import android.os.Bundle;
-
+//Mathías Miranda
 public class TerceraActividad extends AppCompatActivity {
     private EditText text;
 String p1 ="¨Pizza Americana 30.0 soles";

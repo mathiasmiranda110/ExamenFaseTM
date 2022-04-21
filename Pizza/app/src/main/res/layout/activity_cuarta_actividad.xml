@@ -75,22 +75,23 @@
         tools:layout_editor_absoluteX="52dp">
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/radio2"
             android:layout_width="match_parent"
             android:layout_height="36dp"
-            android:text="Incacola" />
+            android:text="Cocacola" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/radio3"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="Cocacola" />
+            android:text="Incacola" />
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnConvertir1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="miClicManejador1"
         android:text="GENERAR PAGO"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -100,7 +101,7 @@
         app:layout_constraintVertical_bias="0.699" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -118,7 +119,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="TOTAL:"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="765dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
