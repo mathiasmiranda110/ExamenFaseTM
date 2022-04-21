@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pizzeria Brunos</string>
+    <string name="mostrar">Ir al menu</string>
+    <string name="mostrar1">Ir al menu de pizzas</string>
+    <string name="mostrar2">Ir al menu de bebidas</string>
+    <string name="Peperoni">Peperoni</string>
+    <string name="Americana">Americana</string>
+</resources>
